@@ -1,0 +1,13 @@
+@local=http://localhost:3900
+
+################################################################
+POST {{local}}/api/users/register
+Content-Type: application/json
+
+{
+  "email": "reem@example.com",
+  "password": "123456789"
+}
+
+############################################################
+
